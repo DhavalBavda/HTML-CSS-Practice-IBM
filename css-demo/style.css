@@ -1,0 +1,45 @@
+.my-style-2 {
+    color: brown;
+}
+
+#my-style-3 {
+    color: chartreuse;
+}
+
+p {
+    color: burlywood;
+}
+
+h3 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.body-style {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    color: coral;
+}
+
+.box-model {
+    margin: 2em;
+    padding: 2em;
+    border: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+body{
+    /* background-image: url('https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ac25c61b5-cbf5-40d2-91b5-a933d7662d18?source=next-article&fit=scale-down&quality=highest&width=700&dpr=2'); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+}

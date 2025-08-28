@@ -1,0 +1,39 @@
+form{
+    border: 2px;
+    border-color: bisque;
+    border-style: solid;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #fff8f0;
+}
+
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
