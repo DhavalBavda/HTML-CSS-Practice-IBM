@@ -1,0 +1,342 @@
+body{
+    padding: 5px;
+    /* background-color: rgb(203, 203, 203); */
+    border: 2px solid rgb(108, 108, 108);
+    box-sizing: content-box;
+}
+
+
+/* -------------------------------------- header start -------------------------------------- */
+.header-section{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-style: ridge;
+    border-radius: 15px;
+    /* border-top-left-radius: 15px;
+    border-top-left-radius: 15px; */
+    /* background-color: white; */
+    background-color: rgb(203, 203, 203);
+}
+
+/* -------------------------------------- header title bar start -------------------------------------- */
+.header-title-bar{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+#header-title-bar-ttl{
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    float: inline-start;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+#header-title-bar-tg{
+    margin: 5px;
+    padding: 5px;
+    font-weight: 500;
+    float: inline-end;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+/* -------------------------------------- header title bar end -------------------------------------- */
+
+/* -------------------------------------- header nav bar start -------------------------------------- */
+.header-nav-div{
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-nav-bar{
+    display: flex;
+    position: left;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-nav-bar li{
+    background-color: rgb(255, 243, 243);
+    list-style: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 4px;
+    width:fit-content;
+    font-weight: 600;
+    box-shadow: 2px 2px rgb(122, 122, 122);
+}
+/* -------------------------------------- header nav bar end -------------------------------------- */
+
+/* -------------------------------------- header hero start -------------------------------------- */
+.header-hero{
+    margin: 5px;
+    padding: 5px;
+    border-top: 1px solid;
+    text-align: center;
+}
+
+.header-hero button{
+    padding: 10px;
+    margin-right: 20px;
+    font-size: larger;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(255, 243, 243);
+    font-weight: 500;
+}
+
+#header-cta-caption{
+    padding: 5px;
+    font-size: smaller;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-self: center;
+    width: fit-content;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+/* -------------------------------------- header end -------------------------------------- */
+
+
+/* -------------------------------------- general content start -------------------------------------- */
+
+.general-content-section{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-style: ridge;
+    border-radius: 15px;
+        background-color: rgb(203, 203, 203);
+
+}
+
+.general-content-section p {
+    text-align: justify;
+}
+
+.general-content-section div{
+    margin: 5px;
+    padding: 5px;
+}
+
+/* -------------------------------------- general why mttr start -------------------------------------- */
+
+.general-why-mttr-section li{
+    list-style: square;
+    margin-bottom: 1.5px;
+}
+
+/* -------------------------------------- general why mttr end -------------------------------------- */
+
+/* -------------------------------------- general-cr-alg start -------------------------------------- */
+.general-cr-alg dt {
+    margin: 2px 2px 2px 20px;
+    padding: 3px;
+    border: 2px solid rgb(255, 243, 243);
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    width: fit-content;
+    background-color: rgb(255, 243, 243);
+    box-shadow: 2px 2px 2px gray;
+    font-weight: 550;
+}
+
+.general-cr-alg dd{
+    margin-left: 29px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-left: 2px solid;
+    border-bottom: 1.6px solid;
+    width: fit-content;
+    border-bottom-left-radius: 15px;
+}
+
+.general-cr-alg blockquote{
+    margin: 0px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-self: center;
+    width: fit-content;
+    box-sizing: border-box;
+}
+/* -------------------------------------- general-cr-alg end -------------------------------------- */
+
+/* -------------------------------------- general content end -------------------------------------- */
+
+/* -------------------------------------- ne content section start -------------------------------------- */
+
+.ne-content-section{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-style: ridge;
+    border-radius: 15px;
+        background-color: rgb(203, 203, 203);
+
+}
+
+.ne-content-section h2{
+    margin: 5px;
+    padding: 5px;
+}
+
+#ne-section-tagline{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* -------------------------------------- news section start -------------------------------------- */
+.news-section{
+    margin: 5px;
+    padding: 15px;
+    border: 5px;
+    border-style: groove;
+    border-radius: 20px;
+    background-color:   rgb(255, 243, 243);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-section div{
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+    border: 2px ridge;
+    border-radius: 12px;
+}
+
+.news-section p{
+    text-align: justify;
+}
+/* -------------------------------------- news section end -------------------------------------- */
+
+/* -------------------------------------- events section start -------------------------------------- */
+.events-section{
+    margin: 5px;
+    padding: 15px;
+    border: 5px;
+    border-style: groove;
+    border-radius: 20px;
+    background-color:   rgb(255, 243, 243);
+}
+
+.events-section div{
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    border: 2px ridge;
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#lttr-signoff{
+    padding: 5px;
+    /* background-color: rgb(230, 239, 255); */
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-self: center;
+    width: fit-content;
+    box-sizing: border-box;
+    font-style: italic;
+}
+/* -------------------------------------- events section end -------------------------------------- */
+
+/* -------------------------------------- ne content section end -------------------------------------- */
+
+/* -------------------------------------- footer-section start -------------------------------------- */
+
+.footer-section{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-style: ridge;
+    border-radius: 15px;
+        background-color: rgb(203, 203, 203);
+
+}
+
+/* -------------------------------------- footer-sec-head start -------------------------------------- */
+.footer-sec-head{
+    margin: 5px;
+    padding: 5px;
+}
+/* -------------------------------------- footer-sec-head end -------------------------------------- */
+
+/* -------------------------------------- footer-sec-body start -------------------------------------- */
+
+.footer-sec-body{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.footer-sec-body div{
+    /* border: 1px ridge; */
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer-sec-body h5{
+    margin: 10px;
+}
+
+.footer-sec-body ul{
+    margin: 10px;
+    padding-left: 20px;
+}
+
+
+.footer-sec-body li{
+    list-style: circle;
+    font-size: small
+}
+/* -------------------------------------- footer-sec-body end -------------------------------------- */
+
+/* -------------------------------------- footer-sec-foot start -------------------------------------- */
+.footer-sec-foot{
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer-sec-foot p{
+    margin-bottom: 8px;
+}
+/* -------------------------------------- footer-sec-foot end -------------------------------------- */
+
+
+/* -------------------------------------- footer-section end -------------------------------------- */
+
