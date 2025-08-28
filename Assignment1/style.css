@@ -133,6 +133,11 @@ body{
 
 /* -------------------------------------- general why mttr start -------------------------------------- */
 
+.general-why-mttr-section{
+    border-left: 2px solid rgb(255, 243, 243);
+    border-radius: 10px 0px 0px 10px;
+}
+
 .general-why-mttr-section li{
     list-style: square;
     margin-bottom: 1.5px;
@@ -141,6 +146,11 @@ body{
 /* -------------------------------------- general why mttr end -------------------------------------- */
 
 /* -------------------------------------- general-cr-alg start -------------------------------------- */
+.general-cr-alg{
+    border-left: 2px solid rgb(255, 243, 243);
+    border-radius: 10px 0px 0px 10px;   
+}
+
 .general-cr-alg dt {
     margin: 2px 2px 2px 20px;
     padding: 3px;
@@ -279,7 +289,7 @@ body{
     border: 1px;
     border-style: ridge;
     border-radius: 15px;
-        background-color: rgb(203, 203, 203);
+    background-color: rgb(203, 203, 203);
 
 }
 
@@ -287,6 +297,7 @@ body{
 .footer-sec-head{
     margin: 5px;
     padding: 5px;
+    text-align: center;
 }
 /* -------------------------------------- footer-sec-head end -------------------------------------- */
 
@@ -300,29 +311,29 @@ body{
     width: 80%;
     align-self: center;
     justify-content: space-between;
+    border-bottom: 1px solid white;
 }
 
 .footer-sec-body div{
-    /* border: 1px ridge; */
-    /* background-color: white; */
-    /* border-radius: 10px; */
     padding: 5px;
     margin: 10px;
 }
 
 .footer-sec-body h5{
     margin: 10px;
+    font-size: medium;
 }
 
 .footer-sec-body ul{
     margin: 10px;
-    padding-left: 20px;
+    padding-left: 5px;
 }
 
 
 .footer-sec-body li{
-    list-style: circle;
-    font-size: small
+    list-style: none;
+    font-size:medium;
+    margin-bottom: 5px;
 }
 /* -------------------------------------- footer-sec-body end -------------------------------------- */
 
@@ -333,7 +344,8 @@ body{
 }
 
 .footer-sec-foot p{
-    margin-bottom: 8px;
+    margin: 10px;
+    text-align: center;
 }
 /* -------------------------------------- footer-sec-foot end -------------------------------------- */
 
