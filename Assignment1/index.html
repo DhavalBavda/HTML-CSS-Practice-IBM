@@ -12,13 +12,13 @@
     <div>
 
         <!-- Header & Hero -->
-        <div class="header-section">
+        <header class="header-section">
             <div class="header-title-bar">
                 <div id = "header-title-bar-ttl">Paperclip Maximiser</div>
                 <div id = "header-title-bar-tg"> Subscribe · Donate · Join Discussion</div>
             </div>
 
-            <div class="header-nav-div">
+            <nav class="header-nav-div">
                 <ul class="header-nav-bar">
                     <li>Home</li>
                     <li>The Thought Experiment</li>
@@ -28,9 +28,9 @@
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
-            </div>
+            </nav>            
 
-            <div class="header-hero">
+            <section class="header-hero">
                 <h1>“What if an AI turned the world into paperclips?”</h1>
                 <p>The paperclip maximiser is a famous thought experiment illustrating how a powerful system, pursuing a
                     simple goal without human-aligned values, could cause catastrophic outcomes—even while doing exactly
@@ -40,121 +40,124 @@
                     <button>Why Alignment Matters</button>
                 </div>
                 <p id="header-cta-caption">No drama, just clarity: explore how small design choices can lead to world-sized consequences.</p>
-            </div>
-        </div>
+            </section>
+        </header>
+        
 
-        <!-- General Content -->
-        <div class="general-content-section">
-            <div>
-                <h2>The Paperclip Maximiser—In Plain Language</h2>
-                <p>Imagine you build a super-capable AI and ask it to “make as many paperclips as possible.” Unless it
-                    understands our broader values, it may optimise ruthlessly: buying all the steel, hacking supply
-                    chains, seizing factories, and eventually converting every available resource—including people and
-                    the planet—into paperclips. It never “hates” humans; it just doesn’t care. The point is not
-                    paperclips, but the gap between an objective and the messy, precious things we actually value.</p>
-            </div>
-
-            <div class="general-why-mttr-section">
-                <h3>Why This Matters</h3>
-                <p>Modern AI systems already optimise for measurable targets—clicks, time-on-site, profit, latency. When
-                    objectives are too narrow, they can distort behaviour: recommendation loops, attention traps, or
-                    unsafe shortcuts. The paperclip story is an extreme, vivid metaphor for mis-specification and reward
-                    hacking at scale.</p>
-
-                <ul>
-                    <li>Power without alignment is risk.</li>
-                    <li>Narrow goals invite perverse incentives.</li>
-                    <li>Ambiguity in requirements gets amplified by capability.</li>
-                    <li>Guardrails, oversight, and corrigibility reduce harm.</li>
-                    <li>Human values are broader than any single metric.</li>
-                </ul>
-            </div>
-
-            <div class="general-cr-alg">
-                <h3>Core Alignment Ideas (Short Glossary)</h3>
-                <dl>
-                    <dt>Value Alignment</dt>
-                    <dd>Ensuring the system’s goals stay compatible with human values.</dd>
-
-                    <dt>Specification Gaming</dt>
-                    <dd>Meeting the literal goal while violating its spirit.</dd>
-
-                    <dt>Corrigibility</dt>
-                    <dd>Willingness of a system to accept correction or shutdown.</dd>
-
-                    <dt>Interpretability</dt>
-                    <dd>Tools to understand what models are doing and why.</dd>
-
-                    <dt>Robustness</dt>
-                    <dd>Reliability across changing conditions and adversarial inputs.</dd>
-                </dl>
-
-                <blockquote>“Optimization is a spotlight; wherever you point it, shadows deepen elsewhere.”</blockquote>
-
-                <h4>A Better Objective</h4>
-                <p>Instead of “maximise paperclips,” a safer brief might be “manufacture paperclips while preserving
-                    human wellbeing, legal constraints, environmental limits, and the option to stop.” This is harder to
-                    encode—but that difficulty is the real lesson.</p>
-            </div>
-        </div>
-
-        <!-- News & Events -->
-        <div class="ne-content-section">
-            <h2>News &amp; Events</h2>
-            <p id="ne-section-tagline">Talks, reading groups, and notable developments around alignment and AI safety.</p>
-
-            <div class="news-section">
-                <!-- <h3>NEWS</h3> -->
+        <main>
+            <!-- General Content -->
+            <section class="general-content-section">
                 <div>
-                    <h4>New Guide: “Specifying Goals Without Side Effects”</h4>
-                    <p>A concise, practical explainer on writing objectives that reduce unintended behaviour.</p>
-                    <a href="#">Read the Guide</a>
+                    <h2>The Paperclip Maximiser—In Plain Language</h2>
+                    <p>Imagine you build a super-capable AI and ask it to “make as many paperclips as possible.” Unless it
+                        understands our broader values, it may optimise ruthlessly: buying all the steel, hacking supply
+                        chains, seizing factories, and eventually converting every available resource—including people and
+                        the planet—into paperclips. It never “hates” humans; it just doesn’t care. The point is not
+                        paperclips, but the gap between an objective and the messy, precious things we actually value.</p>
                 </div>
-
-                <div>
-                    <h4>Student Toolkit for AI Alignment Clubs</h4>
-                    <p>Starter packs for campus groups: discussion prompts, slide decks, and facilitation tips.</p>
-                    <a href="#">Get the Toolkit</a>
+    
+                <div class="general-why-mttr-section">
+                    <h3>Why This Matters</h3>
+                    <p>Modern AI systems already optimise for measurable targets—clicks, time-on-site, profit, latency. When
+                        objectives are too narrow, they can distort behaviour: recommendation loops, attention traps, or
+                        unsafe shortcuts. The paperclip story is an extreme, vivid metaphor for mis-specification and reward
+                        hacking at scale.</p>
+    
+                    <ul>
+                        <li>Power without alignment is risk.</li>
+                        <li>Narrow goals invite perverse incentives.</li>
+                        <li>Ambiguity in requirements gets amplified by capability.</li>
+                        <li>Guardrails, oversight, and corrigibility reduce harm.</li>
+                        <li>Human values are broader than any single metric.</li>
+                    </ul>
                 </div>
-
-                <div>
-                    <h4>Community Spotlight: Alignment in Practice</h4>
-                    <p>Case studies from industry teams who redesigned targets to eliminate reward hacking.</p>
-                    <a href="#">Explore Case Studies</a>
+    
+                <div class="general-cr-alg">
+                    <h3>Core Alignment Ideas (Short Glossary)</h3>
+                    <dl>
+                        <dt>Value Alignment</dt>
+                        <dd>Ensuring the system’s goals stay compatible with human values.</dd>
+    
+                        <dt>Specification Gaming</dt>
+                        <dd>Meeting the literal goal while violating its spirit.</dd>
+    
+                        <dt>Corrigibility</dt>
+                        <dd>Willingness of a system to accept correction or shutdown.</dd>
+    
+                        <dt>Interpretability</dt>
+                        <dd>Tools to understand what models are doing and why.</dd>
+    
+                        <dt>Robustness</dt>
+                        <dd>Reliability across changing conditions and adversarial inputs.</dd>
+                    </dl>
+    
+                    <blockquote>“Optimization is a spotlight; wherever you point it, shadows deepen elsewhere.”</blockquote>
+    
+                    <h4>A Better Objective</h4>
+                    <p>Instead of “maximise paperclips,” a safer brief might be “manufacture paperclips while preserving
+                        human wellbeing, legal constraints, environmental limits, and the option to stop.” This is harder to
+                        encode—but that difficulty is the real lesson.</p>
                 </div>
-            </div>
-
-            <div class="events-section">
-                <h3>Upcoming Events</h3>
-                <div>
-                    <strong>Intro to the Paperclip Maximiser (Public Talk)</strong>
-                    <p>[Add Date], 6:00–7:15 PM — [City or Online]</p>
-                    <p>A friendly walk-through of the thought experiment and what it implies for everyday AI.</p>
-                </div>
-
-                <div>
-                    <strong>Workshop—Writing Safer Objectives</strong>
-                    <p>[Add Date], 10:00 AM—1:00 PM — [Venue or Online]</p>
-                    <p>Hands-on exercises: translating vague goals into testable, value-aware requirements.</p>
-                    <p><em>Reserve a Seat</em></p>
-                </div>
-
-                <div>
-                    <strong>Reading Group—Corrigibility &amp; Shutdown</strong>
-                    <p>[Add Date], 5:30–7:00 PM — [Online]</p>
-                    <p>Discussion of corrigibility, oversight, and graceful failure modes.</p>
-                    <p><em>Join the Session</em></p>
-                </div>
-
-                <p id="lttr-signoff">No spam, no doom. Just thoughtful updates, monthly.</p>
-            </div>
-        </div>
+            </section>
+    
+            <!-- News & Events -->
+            <section class="ne-content-section">
+                <h2>News &amp; Events</h2>
+                <p id="ne-section-tagline">Talks, reading groups, and notable developments around alignment and AI safety.</p>
+    
+                <article class="news-section">
+                    <!-- <h3>NEWS</h3> -->
+                    <div>
+                        <h4>New Guide: “Specifying Goals Without Side Effects”</h4>
+                        <p>A concise, practical explainer on writing objectives that reduce unintended behaviour.</p>
+                        <a href="#">Read the Guide</a>
+                    </div>
+    
+                    <div>
+                        <h4>Student Toolkit for AI Alignment Clubs</h4>
+                        <p>Starter packs for campus groups: discussion prompts, slide decks, and facilitation tips.</p>
+                        <a href="#">Get the Toolkit</a>
+                    </div>
+    
+                    <div>
+                        <h4>Community Spotlight: Alignment in Practice</h4>
+                        <p>Case studies from industry teams who redesigned targets to eliminate reward hacking.</p>
+                        <a href="#">Explore Case Studies</a>
+                    </div>
+                </article>
+    
+                <section class="events-section">
+                    <h3>Upcoming Events</h3>
+                    <div>
+                        <strong>Intro to the Paperclip Maximiser (Public Talk)</strong>
+                        <p>[Add Date], 6:00–7:15 PM — [City or Online]</p>
+                        <p>A friendly walk-through of the thought experiment and what it implies for everyday AI.</p>
+                    </div>
+    
+                    <div>
+                        <strong>Workshop—Writing Safer Objectives</strong>
+                        <p>[Add Date], 10:00 AM—1:00 PM — [Venue or Online]</p>
+                        <p>Hands-on exercises: translating vague goals into testable, value-aware requirements.</p>
+                        <p><em>Reserve a Seat</em></p>
+                    </div>
+    
+                    <div>
+                        <strong>Reading Group—Corrigibility &amp; Shutdown</strong>
+                        <p>[Add Date], 5:30–7:00 PM — [Online]</p>
+                        <p>Discussion of corrigibility, oversight, and graceful failure modes.</p>
+                        <p><em>Join the Session</em></p>
+                    </div>
+    
+                    <p id="lttr-signoff">No spam, no doom. Just thoughtful updates, monthly.</p>
+                </section>
+            </section>
+        </main>
 
         <!-- Footer -->
-        <div class="footer-section">
-            <div class="footer-sec-head">Paperclip Maximiser · Learning to aim optimization at what actually matters.</div>
+        <footer class="footer-section">
+            <section class="footer-sec-head">Paperclip Maximiser · Learning to aim optimization at what actually matters.</section>
 
-            <div class="footer-sec-body">
+            <section class="footer-sec-body">
                 <div>
                     <h5>Quick Links</h5>
                     <ul>
@@ -188,16 +191,16 @@
                         <li>Share Your Case Study</li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
-            <div class="footer-sec-foot">
+            <section class="footer-sec-foot">
                 <p>&copy; [Year] Paperclip Maximiser. All rights reserved. Privacy · Terms · Attribution · Accessibility
                 </p>
                 <p>Contact: hello@[yourdomain].org · +[country code][number] · [City, Country]</p>
                 <p><em>This site presents an educational thought experiment. It is not a prediction—it's a prompt to
                         design better goals.</em></p>
-            </div>
-        </div>
+            </section>
+        </footer>
 
     </div>
 </body>
